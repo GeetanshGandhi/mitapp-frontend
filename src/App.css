@@ -99,7 +99,6 @@
 	font: 2.7vh "Poppins", Arial;
 	overflow: hidden;
 	transition: all 5s ease-in-out;
-	border: 1px solid white;
 }
 #problem-wrapper{
 	position:absolute;
