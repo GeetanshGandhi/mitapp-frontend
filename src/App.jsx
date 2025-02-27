@@ -22,9 +22,9 @@ function App() {
 	}
 	//problem
 	const [problem, setproblem] = useState("");
-	let randomnumber = 0;
+	let randomnumber = 7;
 	const showProblem = () => {
-		generateRandomNumber();
+		// generateRandomNumber();
 		setproblem(problems[randomnumber]);
 		document.getElementsByClassName("generate")[0].style.display = "none"
 		document.getElementById("subhead").style.height = "0px";
