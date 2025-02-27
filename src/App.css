@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	color: white;
+	z-index: 1;
+}
+.main-container{
+	height: 150vh;
+	width: 100vw;
+	background-color: black;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bg{
+	opacity: 0.3;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;	
+	z-index: 0;
+}
+.foreground{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+}
+#mainhead{
+	text-align: center;
+	padding: 3vh;
+	font-size: 12vh;
+	font-family: "Chewy", Arial;
+	letter-spacing: 3px;
+	color: rgb(223, 241, 255);
+	transition: all 0.5s ease-out;
+}
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+#subhead{
+	height: 19vh;
+	text-align: center;
+	font-size: 8vh;
+	font-family: "Aldrich", Arial;
+	transition: all 0.5s ease-out;
+	overflow: hidden;
+}
+.btns{
+	margin: 20px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 30px;
+	background-color: rgb(193, 220, 255);
+	border: 2px solid rgb(0, 0, 147);
+	border-radius: 20px;
+	font-size: 4vh;
+	font-family: "Aldrich", Arial;
+	color: rgb(0, 0, 147);
+	transition: all 0.2s ease-out;
+}
+.btns:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	color: white;
+	background-color: rgb(0, 0, 147);
+}
+.ins-wrapper {
+	max-height: 120px;
+	margin: 5px 0 5px 40px;
+	font: 20px "Ubuntu", Arial;
+	line-height: 30px;
+	transition: all 0.2s ease-out;
+	overflow:hidden;
+}
+.pg-btn img{
+	margin-left: 5px;
+	height: 6vh;
+}
+.pg-btn-wrap{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#disc-timer {
+	margin-left: 20px;
+	font: 2vh "Ubuntu", Arial;
+}
+#timer {
+	font: 4vh "Poppins", Arial;
+	background-color: rgb(194, 0, 0);
+	padding: 2px 15px;
+	border-radius: 10px;
+}
+#problem{
+	margin: 2vh 3vw;
+	font: 2.7vh "Poppins", Arial;
+	overflow: hidden;
+	transition: all 5s ease-in-out;
+	border: 1px solid white;
+}
+#problem-wrapper{
+	position:absolute;
+	bottom: 5vh;
+	left: 25vw;
+}
