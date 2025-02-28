@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mitapp-frontend/static/css/main.25359c53.css",
-    "main.js": "/mitapp-frontend/static/js/main.c2d8bb49.js",
+    "main.css": "/mitapp-frontend/static/css/main.46912467.css",
+    "main.js": "/mitapp-frontend/static/js/main.50489e2e.js",
     "static/media/bg.png": "/mitapp-frontend/static/media/bg.68606dc2e1d1c320abef.png",
     "index.html": "/mitapp-frontend/index.html",
-    "main.25359c53.css.map": "/mitapp-frontend/static/css/main.25359c53.css.map",
-    "main.c2d8bb49.js.map": "/mitapp-frontend/static/js/main.c2d8bb49.js.map"
+    "main.46912467.css.map": "/mitapp-frontend/static/css/main.46912467.css.map",
+    "main.50489e2e.js.map": "/mitapp-frontend/static/js/main.50489e2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.25359c53.css",
-    "static/js/main.c2d8bb49.js"
+    "static/css/main.46912467.css",
+    "static/js/main.50489e2e.js"
   ]
 }
