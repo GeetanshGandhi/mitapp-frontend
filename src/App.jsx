@@ -39,7 +39,7 @@ function App() {
 	const generateRandomNumber = () => {
 		randomnumber = Math.floor(Math.random() * problems.length);
 	}
-	const [time, setTime] = useState(630); // Countdown from 10 minutes
+	const [time, setTime] = useState(330); // Countdown from 10 minutes
 	const [isRunning, setIsRunning] = useState(false);
 
 	useEffect(() => {
