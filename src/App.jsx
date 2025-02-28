@@ -64,8 +64,8 @@ function App() {
 		<div className="main-container">
 			<img className='bg' src={require("./img/bg.png")} alt="" />
 			<div className="foreground">
-				<h1 id="mainhead">Appossible: Every app is possible</h1>
 				<h2 id="subhead">No code? No problem! Just build the UI, meet the requirements, and win!</h2>
+				<h1 id="mainhead">Appossible: Every app is possible</h1>
 				<div className="wrapper">
 					<button onClick={toggleInstruction} className="btns view-ins">{(toggleIns ? "Hide" : "View") + " Instructions"}</button>
 					<button className='btns generate' onClick={showProblem}>Generate Problem</button>
